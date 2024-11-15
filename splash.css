@@ -1,0 +1,46 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600&display=swap");
+
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    background-image: url('deer.jpg'); /*  image path */
+    background-size:cover; /* This will make the background image cover the entire container */
+    background-position:center; /* This will center the background image */
+    background-repeat: no-repeat; /* This will prevent the background image from repeating */
+    /* You can also use background-size: contain; to fit the background image within the container */
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+    color: #fff; /* Set color to white*/
+}
+
+
+            
+            
+
+           
+
+            .loader-image{
+                width:  100px;
+                height: 100px;
+                
+            }
+
+            .splash {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                color: whitesmoke;
+            }
+
+
+            @keyframes spin{
+                to{ transform: rotate(360deg) ;}
+            }

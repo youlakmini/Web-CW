@@ -1,0 +1,90 @@
+/* Styles for body */
+body {
+    background-image: url(image/background-6556393.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles for main */
+main {
+    padding:100px;
+    margin: 50px;
+}
+
+/* Styles for sections */
+section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1px auto 10px; /* Center horizontally */
+    padding: 50px;
+    max-width: 80%;
+}
+
+/* Styles for headings */
+h1 {
+    color: #f0e8e8;
+}
+
+h2 {
+    color: #481E14;
+}
+
+h3 {
+    color: #9B3922;
+}
+
+/* Styles for links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Styles for buttons */
+.visit-button {
+    background-color: #F2613F;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.visit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for paragraphs */
+p {
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Styles for strong tags */
+strong {
+    font-weight: bold;
+}
+
+/* Responsive Styles */
+header, main, .task, .visit-button {
+    padding: 20px;
+}
+
+.visit-button {
+    padding: 10px 20px;
+}
